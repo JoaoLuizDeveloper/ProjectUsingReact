@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UsingReactAPI</name>
+    </assembly>
+    <members>
+        <member name="M:UsingReactAPI.Controllers.DoctorsController.GetDoctors">
+            <summary>
+            Get List of Doctors
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UsingReactAPI.Controllers.DoctorsController.GetDoctor(System.Guid)">
+            <summary>
+            Get Individual Doctor
+            </summary>
+            <param name="id">The id of the Doctor</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsingReactAPI.Controllers.DoctorsController.CreateDoctor(UsingReactAPI.Models.DTOs.DoctorCreateDto)">
+            <summary>
+            Create Doctor
+            </summary>
+            <param name="doctor">The Doctor</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsingReactAPI.Controllers.DoctorsController.UpdateDoctor(UsingReactAPI.Models.DTOs.DoctorUpdateDto)">
+            <summary>
+            Update Doctor
+            </summary>
+            <param name="doctorsDto">The Doctor</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsingReactAPI.Controllers.DoctorsController.DeleteDoctor(System.Guid)">
+            <summary>
+            Delete Doctor
+            </summary>
+            <param name="id">The Doctor</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsingReactAPI.Controllers.PatientsController.GetPatients">
+            <summary>
+            Get List of Patients
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UsingReactAPI.Controllers.PatientsController.GetPatient(System.Guid)">
+            <summary>
+            Get Individual Patient
+            </summary>
+            <param name="id">The id of the Patient</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsingReactAPI.Controllers.PatientsController.CreatePatient(UsingReactAPI.Models.DTOs.PatientCreateDto)">
+            <summary>
+            Create Patient
+            </summary>
+            <param name="patients">Create of Patients</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsingReactAPI.Controllers.PatientsController.UpdatePatient(UsingReactAPI.Models.DTOs.PatientUpdateDto)">
+            <summary>
+            Update Patient
+            </summary>
+            <param name="patientsDto">The Patient Updated</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsingReactAPI.Controllers.PatientsController.DeletePatient(System.Guid)">
+            <summary>
+            Delete Patient
+            </summary>
+            <param name="id">The Doctor</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsingReactAPI.Controllers.PatientsController.SearchCpf(System.Int64)">
+            <summary>
+            The Patient CPF
+            </summary>
+            <param name="cpf">The Patient CPF</param>
+            <returns></returns>
+        </member>
+        <member name="M:UsingReactAPI.Controllers.PatientsV2Controller.GetPatientsByDoctor(System.Guid)">
+            <summary>
+            Get Patients By Doctor
+            </summary>
+            <param name="doctorid">The id of the Doctor</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
